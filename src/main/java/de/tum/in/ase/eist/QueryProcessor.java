@@ -13,7 +13,9 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "Lukas";
-        } else { // TODO extend the programm here
+        } else if (query.contains("20 plus 20")){ // 2DO extend the programm here
+            return "40";
+        } else {
             return "";
         }
     }
